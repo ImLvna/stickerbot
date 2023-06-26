@@ -9,7 +9,7 @@ module.exports = {
         server: {
             user: "luna",
             host: "dad.lvna.me",
-            ref: "origin/master",
+            ref: "origin/main",
             repo: "git@github.com:imlvna/stickerbot.git",
             path: "/home/luna/servers/stickerbot",
             "post-deploy": "npm install && pm2 startOrRestart ecosystem.config.js"
