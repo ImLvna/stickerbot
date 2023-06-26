@@ -14,4 +14,5 @@ Takes all discord/[fakenitro](https://github.com/Vendicated/Vencord/) emoji and 
     "STICKER_PACK_TITLE": "",
     "STICKER_PACK_AUTHOR_ID": "Your id -- dm https://t.me/userinfobot",
     "STICKER_PACK_EMOJIS": "emoji to use for all stickers"
-}```
+}
+```
