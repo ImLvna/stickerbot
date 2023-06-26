@@ -1,7 +1,7 @@
 name: Deploy
 on:
   push:
-    branches: [ master, prod ]
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
@@ -22,8 +22,6 @@ jobs:
 
       - name: Install PM2
         run: npm i -g pm2
-      - name: Install dependencies
-        run: npm install
       - name: Deploy
         run: |
           pm2 deploy server
