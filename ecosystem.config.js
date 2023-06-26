@@ -12,7 +12,7 @@ module.exports = {
             ref: "origin/main",
             repo: "git@github.com:imlvna/stickerbot.git",
             path: "/home/luna/servers/stickerbot",
-            "post-deploy": "npm install && tsc && pm2 startOrRestart ecosystem.config.js"
+            "post-deploy": "yarn install && yarn build && pm2 startOrRestart ecosystem.config.js"
         }
     }
 }
